@@ -1,0 +1,18 @@
+name: baseline
+description: The configuration the project shipped with before evaluation existed.
+index:
+  child_secs: 30
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  space: cosine
+retrieval:
+  strategy: dense
+  candidate_k: 20
+  top_k: 4
+  top_k_playlist: 8
+  parent_secs: 120
+  min_score: null
+  reranker: null
+generation:
+  model: gemini-2.5-flash
+  temperature: 0.2
+  context_order: time

@@ -1,0 +1,18 @@
+{
+  "run_id": "baseline",
+  "kind": "retrieval",
+  "mode": "corpus",
+  "top_k": 4,
+  "counts": {
+    "ok": 42,
+    "semantic_miss": 6,
+    "ranking_miss": 21,
+    "n/a": 16
+  },
+  "total": 85,
+  "straddle": {
+    "base_rate": 0.6666666666666666,
+    "in_misses": 0.7407407407407407,
+    "in_hits": 0.6190476190476191
+  }
+}

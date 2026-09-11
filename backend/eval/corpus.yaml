@@ -1,0 +1,33 @@
+# Benchmark corpus definition.
+#
+# Rules:
+# - Every video must carry MANUAL (human-made) English captions. Auto captions
+#   are ASR output and cannot serve as the WER reference; build_corpus.py
+#   checks this and drops videos that fail.
+# - Videos are taken in playlist order up to `max_videos` per source so the
+#   selection is reproducible from this file alone.
+# - The resolved list (video ids, titles, durations, caption kind) is written
+#   to data/corpus_resolved.json and committed; that file, not this one, pins
+#   the corpus.
+name: lectura-bench-v1
+description: >
+  Introductory ML/DL lectures from three sources with professional captions:
+  3Blue1Brown's neural-network series (short, dense), Stanford CS229 (2018,
+  Andrew Ng; long classical ML lectures) and Stanford CS231n (2017; deep
+  learning for vision). Mixed lecture lengths and speakers on purpose.
+
+sources:
+  - course: 3b1b-nn
+    playlist: PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
+    max_videos: 4
+  - course: cs229-2018
+    playlist: PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
+    max_videos: 4
+  - course: cs231n-2017
+    playlist: PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+    max_videos: 3
+
+# Videos used for the Whisper WER experiment (subset of the above, chosen to
+# cover each speaker; filled in by `build_corpus probe` if left empty).
+wer_subset: []
+wer_target_hours: 4

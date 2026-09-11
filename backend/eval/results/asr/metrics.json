@@ -1,0 +1,97 @@
+{
+  "created": "2026-09-08T10:41:58+00:00",
+  "models": [
+    "tiny.en",
+    "base.en",
+    "small.en",
+    "medium.en"
+  ],
+  "videos": [
+    "aircAruvnKk",
+    "jGwO_UgTS7I",
+    "vT1JzLTH4G4",
+    "tIeHLnjs5U8",
+    "Ilg3gGewQ5U",
+    "IHZwWFHWa-w",
+    "OoUX-nOEjG0"
+  ],
+  "summary": {
+    "tiny.en": {
+      "n_videos": 7,
+      "audio_hours": 4.22,
+      "pooled_wer": 0.07909854175872735,
+      "mean_wer": 0.05866590238919406,
+      "mean_rtf": 0.03661428571428571,
+      "hallucination_loops": 0
+    },
+    "base.en": {
+      "n_videos": 7,
+      "audio_hours": 4.22,
+      "pooled_wer": 0.06926064609158779,
+      "mean_wer": 0.051161123955418705,
+      "mean_rtf": 0.047642857142857147,
+      "hallucination_loops": 0
+    },
+    "small.en": {
+      "n_videos": 7,
+      "audio_hours": 4.22,
+      "pooled_wer": 0.054841035421075886,
+      "mean_wer": 0.04194804738326454,
+      "mean_rtf": 0.08778571428571429,
+      "hallucination_loops": 0
+    },
+    "medium.en": {
+      "n_videos": 7,
+      "audio_hours": 4.22,
+      "pooled_wer": 0.053050212805544575,
+      "mean_wer": 0.0379570124632148,
+      "mean_rtf": 0.1854,
+      "hallucination_loops": 0
+    }
+  },
+  "cpu_rtf": [
+    {
+      "model": "tiny.en",
+      "device": "cuda",
+      "clip_seconds": 600,
+      "seconds": 23.0,
+      "rtf": 0.0383
+    },
+    {
+      "model": "tiny.en",
+      "device": "cpu",
+      "clip_seconds": 600,
+      "seconds": 32.7,
+      "rtf": 0.0545
+    },
+    {
+      "model": "base.en",
+      "device": "cuda",
+      "clip_seconds": 600,
+      "seconds": 31.5,
+      "rtf": 0.0525
+    },
+    {
+      "model": "base.en",
+      "device": "cpu",
+      "clip_seconds": 600,
+      "seconds": 55.1,
+      "rtf": 0.0918
+    },
+    {
+      "model": "small.en",
+      "device": "cuda",
+      "clip_seconds": 600,
+      "seconds": 54.0,
+      "rtf": 0.09
+    },
+    {
+      "model": "small.en",
+      "device": "cpu",
+      "clip_seconds": 600,
+      "seconds": 148.4,
+      "rtf": 0.2474
+    }
+  ],
+  "caveat": "Reference = human captions (lightly edited); WER is an upper bound. Both sides normalised with Whisper's EnglishTextNormalizer."
+}

@@ -1,0 +1,144 @@
+{
+  "run_id": "G0_baseline",
+  "description": "The configuration the project shipped with before evaluation existed.",
+  "index": {
+    "collection": "lectura-all-minilm-l6-v2-c30-cosine-cc3549c1",
+    "videos_built": 0,
+    "build_seconds": 13.74,
+    "n_chunks": 1138,
+    "chunks_per_second": null,
+    "chroma_dir_bytes": 73885758,
+    "embedding_dim": 384
+  },
+  "pricing": {
+    "input_per_m": 0.3,
+    "output_per_m": 2.5,
+    "as_of": "2026-09-08"
+  },
+  "judge": {
+    "model": "gemini-3-flash-preview",
+    "n_judged": 57,
+    "sample_n": 30,
+    "cache": {
+      "hits": 0,
+      "misses": 114,
+      "retries": 0
+    }
+  },
+  "by_mode": {
+    "single": {
+      "all": {
+        "n": 190,
+        "n_answerable": 160,
+        "n_unanswerable": 30,
+        "abstention_on_unanswerable": 0.9666666666666667,
+        "false_abstention_on_answerable": 0.05,
+        "answers_with_citations": 0.9375,
+        "citation_validity_mean": 0.9977403700333637,
+        "citation_localized_rate": 0.6878980891719745,
+        "gemini_latency_s": {
+          "p50": 3.703,
+          "p95": 7.123
+        },
+        "tokens_mean": {
+          "prompt_tokens": 2589.184210526316,
+          "output_tokens": 157.84736842105264,
+          "thinking_tokens": 358.8157894736842
+        },
+        "cost_usd_mean": 0.0020684131578947366,
+        "cost_usd_total": 0.3929985,
+        "context_seconds_mean": 388.1842105263158,
+        "judge_faithful": {
+          "partially_supported": 0.017543859649122806,
+          "supported": 0.9824561403508771
+        },
+        "judge_faithful_n": 57,
+        "judge_correct": {
+          "correct": 0.9649122807017544,
+          "incorrect": 0.017543859649122806,
+          "partially_correct": 0.017543859649122806
+        },
+        "judge_correct_n": 57
+      },
+      "by_set": {
+        "human": {
+          "n": 60,
+          "n_answerable": 60,
+          "n_unanswerable": 0,
+          "abstention_on_unanswerable": null,
+          "false_abstention_on_answerable": 0.05,
+          "answers_with_citations": 0.95,
+          "citation_validity_mean": 0.9966666666666667,
+          "citation_localized_rate": 0.7833333333333333,
+          "gemini_latency_s": {
+            "p50": 3.699,
+            "p95": 6.966
+          },
+          "tokens_mean": {
+            "prompt_tokens": 2465.383333333333,
+            "output_tokens": 181.81666666666666,
+            "thinking_tokens": 365.1333333333333
+          },
+          "cost_usd_mean": 0.00210699,
+          "cost_usd_total": 0.1264194,
+          "context_seconds_mean": 371.75,
+          "judge_faithful": {
+            "partially_supported": 0.017543859649122806,
+            "supported": 0.9824561403508771
+          },
+          "judge_faithful_n": 57,
+          "judge_correct": {
+            "correct": 0.9649122807017544,
+            "incorrect": 0.017543859649122806,
+            "partially_correct": 0.017543859649122806
+          },
+          "judge_correct_n": 57
+        },
+        "synthetic": {
+          "n": 100,
+          "n_answerable": 100,
+          "n_unanswerable": 0,
+          "abstention_on_unanswerable": null,
+          "false_abstention_on_answerable": 0.05,
+          "answers_with_citations": 0.93,
+          "citation_validity_mean": 0.9984045164457536,
+          "citation_localized_rate": 0.6288659793814433,
+          "gemini_latency_s": {
+            "p50": 3.871,
+            "p95": 7.123
+          },
+          "tokens_mean": {
+            "prompt_tokens": 2598.87,
+            "output_tokens": 164.6,
+            "thinking_tokens": 388.42
+          },
+          "cost_usd_mean": 0.002162211,
+          "cost_usd_total": 0.2162211,
+          "context_seconds_mean": 390.15
+        },
+        "unanswerable": {
+          "n": 30,
+          "n_answerable": 0,
+          "n_unanswerable": 30,
+          "abstention_on_unanswerable": 0.9666666666666667,
+          "false_abstention_on_answerable": null,
+          "answers_with_citations": null,
+          "citation_validity_mean": null,
+          "citation_localized_rate": null,
+          "gemini_latency_s": {
+            "p50": 3.23,
+            "p95": 4.71
+          },
+          "tokens_mean": {
+            "prompt_tokens": 2804.5,
+            "output_tokens": 87.4,
+            "thinking_tokens": 247.5
+          },
+          "cost_usd_mean": 0.0016786,
+          "cost_usd_total": 0.050358,
+          "context_seconds_mean": 414.5
+        }
+      }
+    }
+  }
+}

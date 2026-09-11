@@ -1,0 +1,162 @@
+{
+  "name": "lectura-bench-v1",
+  "resolved": "2026-09-07T20:08:27+00:00",
+  "videos": [
+    {
+      "video_id": "aircAruvnKk",
+      "title": "But what is a neural network? | Deep learning chapter 1",
+      "duration": 1120,
+      "author": "3Blue1Brown",
+      "course": "3b1b-nn",
+      "playlist": "PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "playlist_title": "Neural networks",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 31
+      }
+    },
+    {
+      "video_id": "IHZwWFHWa-w",
+      "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+      "duration": 1233,
+      "author": "3Blue1Brown",
+      "course": "3b1b-nn",
+      "playlist": "PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "playlist_title": "Neural networks",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 30
+      }
+    },
+    {
+      "video_id": "Ilg3gGewQ5U",
+      "title": "Backpropagation, intuitively | Deep Learning Chapter 3",
+      "duration": 767,
+      "author": "3Blue1Brown",
+      "course": "3b1b-nn",
+      "playlist": "PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "playlist_title": "Neural networks",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 29
+      }
+    },
+    {
+      "video_id": "tIeHLnjs5U8",
+      "title": "Backpropagation calculus | Deep Learning Chapter 4",
+      "duration": 618,
+      "author": "3Blue1Brown",
+      "course": "3b1b-nn",
+      "playlist": "PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "playlist_title": "Neural networks",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 0,
+        "tracks": 24
+      }
+    },
+    {
+      "video_id": "jGwO_UgTS7I",
+      "title": "Stanford CS229: Machine Learning Lecture 1 - Andrew Ng (Autumn 2018)",
+      "duration": 4520,
+      "author": "Stanford Online",
+      "course": "cs229-2018",
+      "playlist": "PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+      "playlist_title": "Stanford CS229: Machine Learning led by Andrew Ng | Autumn 2018",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 2
+      }
+    },
+    {
+      "video_id": "4b4MUYve_U8",
+      "title": "Stanford CS229: Machine Learning - Linear Regression and Gradient Descent |  Lecture 2 (Autumn 2018)",
+      "duration": 4697,
+      "author": "Stanford Online",
+      "course": "cs229-2018",
+      "playlist": "PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+      "playlist_title": "Stanford CS229: Machine Learning led by Andrew Ng | Autumn 2018",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 2
+      }
+    },
+    {
+      "video_id": "het9HFqo1TQ",
+      "title": "Locally Weighted & Logistic Regression | Stanford CS229: Machine Learning - Lecture 3 (Autumn 2018)",
+      "duration": 4774,
+      "author": "Stanford Online",
+      "course": "cs229-2018",
+      "playlist": "PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+      "playlist_title": "Stanford CS229: Machine Learning led by Andrew Ng | Autumn 2018",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 2
+      }
+    },
+    {
+      "video_id": "iZTeva0WSTQ",
+      "title": "Lecture 4 - Perceptron & Generalized Linear Model | Stanford CS229: Machine Learning (Autumn 2018)",
+      "duration": 4922,
+      "author": "Stanford Online",
+      "course": "cs229-2018",
+      "playlist": "PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+      "playlist_title": "Stanford CS229: Machine Learning led by Andrew Ng | Autumn 2018",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 2
+      }
+    },
+    {
+      "video_id": "vT1JzLTH4G4",
+      "title": "Lecture 1 | Introduction to Convolutional Neural Networks for Visual Recognition",
+      "duration": 3477,
+      "author": "Stanford University School of Engineering",
+      "course": "cs231n-2017",
+      "playlist": "PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv",
+      "playlist_title": "Lecture Collection | Convolutional Neural Networks for Visual Recognition (Spring 2017)",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 2
+      }
+    },
+    {
+      "video_id": "OoUX-nOEjG0",
+      "title": "Lecture 2 | Image Classification",
+      "duration": 3572,
+      "author": "Stanford University School of Engineering",
+      "course": "cs231n-2017",
+      "playlist": "PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv",
+      "playlist_title": "Lecture Collection | Convolutional Neural Networks for Visual Recognition (Spring 2017)",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 2
+      }
+    },
+    {
+      "video_id": "h7iBpEHGVNc",
+      "title": "Lecture 3 | Loss Functions and Optimization",
+      "duration": 4480,
+      "author": "Stanford University School of Engineering",
+      "course": "cs231n-2017",
+      "playlist": "PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv",
+      "playlist_title": "Lecture Collection | Convolutional Neural Networks for Visual Recognition (Spring 2017)",
+      "captions": {
+        "manual_en": 1,
+        "auto_en": 1,
+        "tracks": 2
+      }
+    }
+  ],
+  "total_seconds": 34180,
+  "n_videos": 11
+}

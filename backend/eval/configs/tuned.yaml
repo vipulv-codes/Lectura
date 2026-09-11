@@ -1,0 +1,25 @@
+name: tuned
+description: >
+  The configuration selected by the Stage A ablation under the pre-registered
+  decision rules: 30s chunks, bge-small-en-v1.5, dense retrieval, cross-encoder
+  reranking. Rejected: 60s chunks (won MRR@10 but lost on the equal-context
+  Hit@120s metric and tripled timestamp error), hybrid BM25+dense (gain did not
+  survive on questions BM25 cannot already solve). These are the package
+  defaults, so this file only pins them against future default changes.
+index:
+  child_secs: 30
+  embedding_model: BAAI/bge-small-en-v1.5
+  query_prefix: "Represent this sentence for searching relevant passages: "
+  space: cosine
+retrieval:
+  strategy: dense
+  candidate_k: 20
+  reranker: cross-encoder/ms-marco-MiniLM-L-6-v2
+  top_k: 4
+  top_k_playlist: 8
+  parent_secs: 120
+  min_score: null
+generation:
+  model: gemini-2.5-flash
+  temperature: 0.2
+  context_order: time

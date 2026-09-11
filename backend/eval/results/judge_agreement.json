@@ -1,0 +1,18 @@
+{
+  "run": "judge_hard",
+  "n_graded": 7,
+  "faithful": {
+    "agreement": 0.8571428571428571,
+    "kappa": 0.5882352941176469
+  },
+  "correct": {
+    "agreement": 0.8571428571428571,
+    "kappa": 0.7741935483870968
+  },
+  "judge_correct_precision": 1.0,
+  "n_judge_called_correct": 2,
+  "human_disagreed_on": [
+    "G1_tuned:h_021"
+  ],
+  "kappa_reliable": true
+}

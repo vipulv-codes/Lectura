@@ -1,0 +1,79 @@
+{
+  "created": "2026-09-08T08:39:10+00:00",
+  "git_sha": "fbaf520eb5674987c0bbf68857080a58825c851b",
+  "config": {
+    "data_dir": "C:\\Users\\Vipul\\work\\lectura_in_progress\\backend\\eval\\data_dir",
+    "index": {
+      "child_secs": 15,
+      "embedding_model": "intfloat/e5-small-v2",
+      "doc_prefix": "passage: ",
+      "query_prefix": "query: ",
+      "space": "cosine",
+      "ef_search": 100
+    },
+    "retrieval": {
+      "strategy": "dense",
+      "candidate_k": 20,
+      "rrf_k": 60,
+      "reranker": null,
+      "top_k": 4,
+      "top_k_playlist": 8,
+      "min_score": null,
+      "parent_secs": 120
+    },
+    "generation": {
+      "model": "gemini-2.5-flash",
+      "temperature": 0.2,
+      "thinking_budget": null,
+      "context_order": "time",
+      "max_output_tokens": null
+    },
+    "whisper_model": "tiny.en",
+    "device": "auto",
+    "max_playlist_videos": 500,
+    "allowed_origins": [
+      "http://localhost:5173",
+      "http://127.0.0.1:5173",
+      "http://localhost:4173",
+      "http://127.0.0.1:4173",
+      "http://localhost:3000",
+      "http://127.0.0.1:3000"
+    ],
+    "host": "127.0.0.1",
+    "port": 8000,
+    "log_level": "INFO",
+    "collection_name": "lectura-e5-small-v2-c15-cosine-4b4fb3f0"
+  },
+  "seed": 0,
+  "datasets": {
+    "human": "31af9bc206125568d007c96669ac4e29cee22e7e2f2bd352006bda207d05e0c4",
+    "synthetic": "fbba5a6692f79d9c19c5d32d375aece0bb2113fa8663f3fd8e2bd8b5f9a390c8",
+    "unanswerable": "f78701bb2def4e0ce08324806b644ddf6f929384c0c74f353fab62319b9192fd"
+  },
+  "corpus": "f640e9a7cf8f759617cba1dc28209251a5625941af577c85f634f0951cda17f2",
+  "packages": {
+    "chromadb": "1.5.9",
+    "sentence-transformers": "6.0.1",
+    "transformers": "5.16.1",
+    "torch": "2.14.0+cu130",
+    "google-genai": "2.22.0",
+    "openai-whisper": "20250625",
+    "youtube-transcript-api": "1.2.4",
+    "yt-dlp": "2026.8.19",
+    "rank-bm25": "0.2.2",
+    "jiwer": "4.0.0",
+    "numpy": "2.5.3"
+  },
+  "device": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.14",
+    "torch": "2.14.0+cu130",
+    "cuda": true,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  },
+  "kind": "retrieval",
+  "modes": [
+    "single",
+    "corpus"
+  ]
+}

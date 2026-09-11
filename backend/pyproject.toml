@@ -1,0 +1,40 @@
+[project]
+name = "lectura"
+version = "0.2.0"
+description = "RAG teaching assistant over lecture-video transcripts, with an evaluation harness"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["venv", ".venv", "data", "eval/data_dir", "eval/cache", "eval/results"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+ignore = [
+  "E501",   # long lines in prompts/tables are intentional
+  "RUF012", # mutable class attributes are fine for our dataclass-free configs
+  "SIM905", # "a b c".split() is more readable than a 50-item list literal
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["lectura", "eval"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q -m 'not slow'"
+markers = [
+  "slow: downloads a real model or hits the network; run with -m slow",
+]
+filterwarnings = [
+  "ignore::DeprecationWarning:chromadb",
+]
+
+[tool.coverage.run]
+source = ["lectura"]
+branch = true
+
+[tool.coverage.report]
+skip_covered = false
+show_missing = true

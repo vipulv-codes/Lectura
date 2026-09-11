@@ -1,0 +1,21 @@
+# Runtime dependencies. Pinned to the versions verified on Python 3.13 / Windows
+# on 2026-09-08. Upgrade deliberately, then re-run the test suite and the eval
+# baseline.
+#
+# torch: the PyPI wheel is CPU-only on Windows. For the GPU, install the CUDA
+# build FIRST (the pin below is satisfied by the "+cu130" local version):
+#   pip install --index-url https://download.pytorch.org/whl/cu130 torch==2.14.0
+fastapi==0.141.1
+uvicorn==0.52.4
+pydantic==2.13.5
+python-dotenv==1.2.3
+youtube-transcript-api==1.2.4
+yt-dlp==2026.8.19
+openai-whisper==20250625
+chromadb==1.5.9
+sentence-transformers==6.0.1
+google-genai==2.22.0
+numpy==2.5.3
+torch==2.14.0
+rank-bm25==0.2.2
+PyYAML==6.0.3

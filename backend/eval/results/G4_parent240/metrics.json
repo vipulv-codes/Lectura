@@ -1,0 +1,113 @@
+{
+  "run_id": "G4_parent240",
+  "description": "Stage C variant of the tuned config.",
+  "index": {
+    "collection": "lectura-bge-small-en-v1-5-c30-cosine-8c3d99ef",
+    "videos_built": 0,
+    "build_seconds": 13.67,
+    "n_chunks": 1138,
+    "chunks_per_second": null,
+    "chroma_dir_bytes": 73885758,
+    "embedding_dim": 384
+  },
+  "pricing": {
+    "input_per_m": 0.3,
+    "output_per_m": 2.5,
+    "as_of": "2026-09-08"
+  },
+  "judge": null,
+  "by_mode": {
+    "single": {
+      "all": {
+        "n": 190,
+        "n_answerable": 160,
+        "n_unanswerable": 30,
+        "abstention_on_unanswerable": 0.9666666666666667,
+        "false_abstention_on_answerable": 0.00625,
+        "answers_with_citations": 0.975,
+        "citation_validity_mean": 0.9919871794871795,
+        "citation_localized_rate": 0.6858974358974359,
+        "gemini_latency_s": {
+          "p50": 3.516,
+          "p95": 7.23
+        },
+        "tokens_mean": {
+          "prompt_tokens": 4027.5157894736844,
+          "output_tokens": 177.52631578947367,
+          "thinking_tokens": 332.2263157894737
+        },
+        "cost_usd_mean": 0.0024826363157894734,
+        "cost_usd_total": 0.4717009,
+        "context_seconds_mean": 655.2631578947369
+      },
+      "by_set": {
+        "human": {
+          "n": 60,
+          "n_answerable": 60,
+          "n_unanswerable": 0,
+          "abstention_on_unanswerable": null,
+          "false_abstention_on_answerable": 0.016666666666666666,
+          "answers_with_citations": 0.9833333333333333,
+          "citation_validity_mean": 0.987758945386064,
+          "citation_localized_rate": 0.7288135593220338,
+          "gemini_latency_s": {
+            "p50": 3.597,
+            "p95": 7.146
+          },
+          "tokens_mean": {
+            "prompt_tokens": 3704.8166666666666,
+            "output_tokens": 215.33333333333334,
+            "thinking_tokens": 305.23333333333335
+          },
+          "cost_usd_mean": 0.0024128616666666664,
+          "cost_usd_total": 0.1447717,
+          "context_seconds_mean": 609.0
+        },
+        "synthetic": {
+          "n": 100,
+          "n_answerable": 100,
+          "n_unanswerable": 0,
+          "abstention_on_unanswerable": null,
+          "false_abstention_on_answerable": 0.0,
+          "answers_with_citations": 0.97,
+          "citation_validity_mean": 0.9945589919816724,
+          "citation_localized_rate": 0.6597938144329897,
+          "gemini_latency_s": {
+            "p50": 3.586,
+            "p95": 7.23
+          },
+          "tokens_mean": {
+            "prompt_tokens": 4133.21,
+            "output_tokens": 188.55,
+            "thinking_tokens": 353.91
+          },
+          "cost_usd_mean": 0.002596113,
+          "cost_usd_total": 0.2596113,
+          "context_seconds_mean": 674.25
+        },
+        "unanswerable": {
+          "n": 30,
+          "n_answerable": 0,
+          "n_unanswerable": 30,
+          "abstention_on_unanswerable": 0.9666666666666667,
+          "false_abstention_on_answerable": null,
+          "answers_with_citations": null,
+          "citation_validity_mean": null,
+          "citation_localized_rate": null,
+          "gemini_latency_s": {
+            "p50": 3.073,
+            "p95": 4.825
+          },
+          "tokens_mean": {
+            "prompt_tokens": 4320.6,
+            "output_tokens": 65.16666666666667,
+            "thinking_tokens": 313.93333333333334
+          },
+          "cost_usd_mean": 0.00224393,
+          "cost_usd_total": 0.0673179,
+          "context_seconds_mean": 684.5
+        }
+      }
+    }
+  }
+}
